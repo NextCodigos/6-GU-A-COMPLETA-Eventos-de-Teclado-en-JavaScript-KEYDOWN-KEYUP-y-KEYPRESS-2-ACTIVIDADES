@@ -1,5 +1,5 @@
-window.addEventListener("keydown",teclado)
-window.addEventListener("keyup",teclado)
+document.querySelector(".campo").addEventListener("keydown",teclado)
+document.querySelector(".campo").addEventListener("keyup",teclado)
 
 function teclado(e){
     // console.log(e)
